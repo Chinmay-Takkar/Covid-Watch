@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #c0c3cf;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+  justify-content: space-evenly;
+  
+  background : url("https://www.tulsa-health.org/sites/default/files/styles/fhd/public/2020-09/GettyImages-1215392772.jpg?itok=aOUQtP4J");
+  padding: 20px;
+  font-weight: 800;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__body{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  
+  border-radius: 12px;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.app__dropdown {
+  background-color: white;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.app__header {
+  display: flex;
+  background : rgb(14, 1, 1);
+  margin-bottom: 20px;
+  width: 30%;
+  margin-left: 35%;
+  justify-content: space-evenly;
+  border-radius: 100px;
+  
+}
+
+.app__header > h1 {
+  color: #dfebd9;
+  font-size: 2rem;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.app__left {
+  flex: 0.3;
+}
+
+.app__right {
+  text-align: center;
+  flex: 0.5;
+}
+
+.app__information > h3 {
+  color: #6a5d5d;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.app__information > h3:last-of-type {
+  margin-top: 1rem;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
   }
 }
