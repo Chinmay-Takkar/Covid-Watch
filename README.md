@@ -1,4 +1,9 @@
 This Live Tracker Was Made By Chinmay Takkar
+
+### `npm i`
+
+Will Install All Packages
+
 ### `npm start`
 
 Runs the app in the development mode.\
