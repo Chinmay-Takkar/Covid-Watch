@@ -1,4 +1,4 @@
-This Live Tracker Was Made By Chinmay Takkar
+This Covid-19 Live Tracker Was Made By Chinmay Takkar
 
 ### `npm i`
 
