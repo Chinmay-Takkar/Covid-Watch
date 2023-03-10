@@ -1,6 +1,6 @@
-This ### `Covid-19 Live Tracker` Was Made By ###`Chinmay Takkar`
+This `Covid-19 Live Tracker` Was Made By `Chinmay Takkar`
 
-###`Covid Watch` is a Covid-19 live tracker built using ###`Leaflet.js`, ###`Rapid API`, ###`React Hooks`, and ###`Material UI`. The project aims to provide up-to-date information on the number of confirmed cases, deaths, and recoveries of Covid-19 worldwide.
+`Covid Watch` is a Covid-19 live tracker built using `Leaflet.js`, `Rapid API`, `React Hooks`, and `Material UI`. The project aims to provide up-to-date information on the number of confirmed cases, deaths, and recoveries of Covid-19 worldwide.
 
 The frontend of the Covid Watch project is built using React Hooks and Material UI, a popular UI framework for React applications. Material UI provides a set of pre-designed components that can be easily customized to fit the project's design requirements.
 
